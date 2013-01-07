@@ -17,7 +17,7 @@
         <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,200italic' rel='stylesheet' type='text/css'>
 
         <!-- remove after development -->
-        <link rel="stylesheet/less" type="text/css" href="./css/less/styles.less" />
+        <link rel="stylesheet/less" type="text/css" href="/css/less/styles.less" />
         <script type="text/javascript">
             less = {
                 env: "development", // or "production"
@@ -34,7 +34,7 @@
                                     //resource
             };
         </script>
-        <script src="./js/head.plugins.js" type="text/javascript"></script>
+        <script src="/js/head.plugins.js" type="text/javascript"></script>
         <script>less.watch();</script>
     </head>
     <body>
@@ -42,31 +42,34 @@
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
 
-        <aside>
+        <nav>
             <header>
-                <img src="" alt="chazer logo" />
+                <img src="/images/logo.png" alt="chazer logo" />
                 <hgroup>
                     <h1>chazer clothing company</h1>
                     <h2>More than just a streetwear brand, it's a lifestyle. We are inspired by everything that we see and try to bring you the most unique, colorful, and original designs. Be part of something more than just clothing.</h2>
                 </hgroup>
             </header>
-            <nav>
-                <ul>
-                    <li class="active">all</li>
-                    <li>tees</li>
-                    <li>tanks</li>
-                    <li>hoodies</li>
-                    <li>hats</li>
-                </ul>
-            </nav>
-        </aside>
+            <ul>
+                <li class="active">all</li>
+                <li>tees</li>
+                <li>tanks</li>
+                <li>hoodies</li>
+                <li>hats</li>
+            </ul>
+        </nav>
 
-        <header></header>
+        <img src="/images/splash.png" alt="splash" />
+
+        <section>
+        </section>
+
+        {include file="templates.tpl"}
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
-        <script src="./js/plugins.js"></script>
-        <script src="./js/main.js"></script>
+        <script>window.jQuery || document.write('<script src="/js/jquery-1.8.3.min.js"><\/script>')</script>
+        <script src="/js/body.plugins.js"></script>
+        <script src="/js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>

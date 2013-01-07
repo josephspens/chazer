@@ -1,1 +1,2 @@
-*.psd
+libs/smarty/templates_c/*
+.DS_Store
