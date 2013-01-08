@@ -50,6 +50,7 @@
                     <h2>More than just a streetwear brand, it's a lifestyle. We are inspired by everything that we see and try to bring you the most unique, colorful, and original designs. Be part of something more than just clothing.</h2>
                 </hgroup>
             </header>
+            <div class="divider"></div>
             <ul>
                 <li class="active">all</li>
                 <li>tees</li>
